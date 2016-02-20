@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F190A771C420657004C387B /* WPFSnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F190A761C420657004C387B /* WPFSnapView.m */; };
+		0F190A7A1C420667004C387B /* WPFPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F190A791C420667004C387B /* WPFPushView.m */; };
+		0F190A7D1C42067C004C387B /* WPFAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F190A7C1C42067C004C387B /* WPFAttachmentView.m */; };
+		0F190A801C42068C004C387B /* WPFSpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F190A7F1C42068C004C387B /* WPFSpringView.m */; };
+		0F190A831C42069E004C387B /* WPFCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F190A821C42069E004C387B /* WPFCollisionView.m */; };
+		0F640DED1C412F5A003981CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640DEC1C412F5A003981CE /* main.m */; };
+		0F640DF01C412F5A003981CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640DEF1C412F5A003981CE /* AppDelegate.m */; };
+		0F640DF31C412F5A003981CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640DF21C412F5A003981CE /* ViewController.m */; };
+		0F640DF61C412F5A003981CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F640DF41C412F5A003981CE /* Main.storyboard */; };
+		0F640DF81C412F5A003981CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F640DF71C412F5A003981CE /* Assets.xcassets */; };
+		0F640DFB1C412F5A003981CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F640DF91C412F5A003981CE /* LaunchScreen.storyboard */; };
+		0F640E061C412F5A003981CE /* _2______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640E051C412F5A003981CE /* _2______Tests.m */; };
+		0F640E111C412F5A003981CE /* _2______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640E101C412F5A003981CE /* _2______UITests.m */; };
+		0F640E231C413479003981CE /* WPFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F640E221C413479003981CE /* WPFBaseView.m */; };
+		0FDED2531C41FBF000F30810 /* WPFDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDED2521C41FBF000F30810 /* WPFDemoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F640E021C412F5A003981CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F640DE01C412F5A003981CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F640DE71C412F5A003981CE;
+			remoteInfo = "02-多物理仿真";
+		};
+		0F640E0D1C412F5A003981CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F640DE01C412F5A003981CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F640DE71C412F5A003981CE;
+			remoteInfo = "02-多物理仿真";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F190A751C420657004C387B /* WPFSnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFSnapView.h; sourceTree = "<group>"; };
+		0F190A761C420657004C387B /* WPFSnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFSnapView.m; sourceTree = "<group>"; };
+		0F190A781C420667004C387B /* WPFPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFPushView.h; sourceTree = "<group>"; };
+		0F190A791C420667004C387B /* WPFPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFPushView.m; sourceTree = "<group>"; };
+		0F190A7B1C42067C004C387B /* WPFAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFAttachmentView.h; sourceTree = "<group>"; };
+		0F190A7C1C42067C004C387B /* WPFAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFAttachmentView.m; sourceTree = "<group>"; };
+		0F190A7E1C42068C004C387B /* WPFSpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFSpringView.h; sourceTree = "<group>"; };
+		0F190A7F1C42068C004C387B /* WPFSpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFSpringView.m; sourceTree = "<group>"; };
+		0F190A811C42069E004C387B /* WPFCollisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFCollisionView.h; sourceTree = "<group>"; };
+		0F190A821C42069E004C387B /* WPFCollisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFCollisionView.m; sourceTree = "<group>"; };
+		0F640DE81C412F5A003981CE /* 02-多物理仿真.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-多物理仿真.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F640DEC1C412F5A003981CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F640DEE1C412F5A003981CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F640DEF1C412F5A003981CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F640DF11C412F5A003981CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F640DF21C412F5A003981CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F640DF51C412F5A003981CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F640DF71C412F5A003981CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F640DFA1C412F5A003981CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F640DFC1C412F5A003981CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F640E011C412F5A003981CE /* 02-多物理仿真Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-多物理仿真Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F640E051C412F5A003981CE /* _2______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______Tests.m"; sourceTree = "<group>"; };
+		0F640E071C412F5A003981CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F640E0C1C412F5A003981CE /* 02-多物理仿真UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-多物理仿真UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F640E101C412F5A003981CE /* _2______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2______UITests.m"; sourceTree = "<group>"; };
+		0F640E121C412F5B003981CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F640E211C413479003981CE /* WPFBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFBaseView.h; sourceTree = "<group>"; };
+		0F640E221C413479003981CE /* WPFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFBaseView.m; sourceTree = "<group>"; };
+		0FDED2511C41FBF000F30810 /* WPFDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPFDemoController.h; sourceTree = "<group>"; };
+		0FDED2521C41FBF000F30810 /* WPFDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPFDemoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F640DE51C412F5A003981CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640DFE1C412F5A003981CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640E091C412F5A003981CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F640DDF1C412F5A003981CE = {
+			isa = PBXGroup;
+			children = (
+				0F640DEA1C412F5A003981CE /* 02-多物理仿真 */,
+				0F640E041C412F5A003981CE /* 02-多物理仿真Tests */,
+				0F640E0F1C412F5A003981CE /* 02-多物理仿真UITests */,
+				0F640DE91C412F5A003981CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F640DE91C412F5A003981CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F640DE81C412F5A003981CE /* 02-多物理仿真.app */,
+				0F640E011C412F5A003981CE /* 02-多物理仿真Tests.xctest */,
+				0F640E0C1C412F5A003981CE /* 02-多物理仿真UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F640DEA1C412F5A003981CE /* 02-多物理仿真 */ = {
+			isa = PBXGroup;
+			children = (
+				0F640E1F1C412F90003981CE /* View */,
+				0F640E201C412F95003981CE /* Controller */,
+				0F640E1E1C412F8B003981CE /* Other */,
+				0F640DEB1C412F5A003981CE /* Supporting Files */,
+			);
+			path = "02-多物理仿真";
+			sourceTree = "<group>";
+		};
+		0F640DEB1C412F5A003981CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F640DF71C412F5A003981CE /* Assets.xcassets */,
+				0F640DF91C412F5A003981CE /* LaunchScreen.storyboard */,
+				0F640DFC1C412F5A003981CE /* Info.plist */,
+				0F640DEC1C412F5A003981CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F640E041C412F5A003981CE /* 02-多物理仿真Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F640E051C412F5A003981CE /* _2______Tests.m */,
+				0F640E071C412F5A003981CE /* Info.plist */,
+			);
+			path = "02-多物理仿真Tests";
+			sourceTree = "<group>";
+		};
+		0F640E0F1C412F5A003981CE /* 02-多物理仿真UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F640E101C412F5A003981CE /* _2______UITests.m */,
+				0F640E121C412F5B003981CE /* Info.plist */,
+			);
+			path = "02-多物理仿真UITests";
+			sourceTree = "<group>";
+		};
+		0F640E1E1C412F8B003981CE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0F640DEE1C412F5A003981CE /* AppDelegate.h */,
+				0F640DEF1C412F5A003981CE /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		0F640E1F1C412F90003981CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F640E211C413479003981CE /* WPFBaseView.h */,
+				0F640E221C413479003981CE /* WPFBaseView.m */,
+				0F190A751C420657004C387B /* WPFSnapView.h */,
+				0F190A761C420657004C387B /* WPFSnapView.m */,
+				0F190A781C420667004C387B /* WPFPushView.h */,
+				0F190A791C420667004C387B /* WPFPushView.m */,
+				0F190A7B1C42067C004C387B /* WPFAttachmentView.h */,
+				0F190A7C1C42067C004C387B /* WPFAttachmentView.m */,
+				0F190A7E1C42068C004C387B /* WPFSpringView.h */,
+				0F190A7F1C42068C004C387B /* WPFSpringView.m */,
+				0F190A811C42069E004C387B /* WPFCollisionView.h */,
+				0F190A821C42069E004C387B /* WPFCollisionView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0F640E201C412F95003981CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F640DF11C412F5A003981CE /* ViewController.h */,
+				0F640DF21C412F5A003981CE /* ViewController.m */,
+				0F640DF41C412F5A003981CE /* Main.storyboard */,
+				0FDED2511C41FBF000F30810 /* WPFDemoController.h */,
+				0FDED2521C41FBF000F30810 /* WPFDemoController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F640DE71C412F5A003981CE /* 02-多物理仿真 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F640E151C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真" */;
+			buildPhases = (
+				0F640DE41C412F5A003981CE /* Sources */,
+				0F640DE51C412F5A003981CE /* Frameworks */,
+				0F640DE61C412F5A003981CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-多物理仿真";
+			productName = "02-多物理仿真";
+			productReference = 0F640DE81C412F5A003981CE /* 02-多物理仿真.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F640E001C412F5A003981CE /* 02-多物理仿真Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F640E181C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真Tests" */;
+			buildPhases = (
+				0F640DFD1C412F5A003981CE /* Sources */,
+				0F640DFE1C412F5A003981CE /* Frameworks */,
+				0F640DFF1C412F5A003981CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F640E031C412F5A003981CE /* PBXTargetDependency */,
+			);
+			name = "02-多物理仿真Tests";
+			productName = "02-多物理仿真Tests";
+			productReference = 0F640E011C412F5A003981CE /* 02-多物理仿真Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F640E0B1C412F5A003981CE /* 02-多物理仿真UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F640E1B1C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真UITests" */;
+			buildPhases = (
+				0F640E081C412F5A003981CE /* Sources */,
+				0F640E091C412F5A003981CE /* Frameworks */,
+				0F640E0A1C412F5A003981CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F640E0E1C412F5A003981CE /* PBXTargetDependency */,
+			);
+			name = "02-多物理仿真UITests";
+			productName = "02-多物理仿真UITests";
+			productReference = 0F640E0C1C412F5A003981CE /* 02-多物理仿真UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F640DE01C412F5A003981CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "王鹏飞";
+				TargetAttributes = {
+					0F640DE71C412F5A003981CE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0F640E001C412F5A003981CE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0F640DE71C412F5A003981CE;
+					};
+					0F640E0B1C412F5A003981CE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0F640DE71C412F5A003981CE;
+					};
+				};
+			};
+			buildConfigurationList = 0F640DE31C412F5A003981CE /* Build configuration list for PBXProject "02-多物理仿真" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F640DDF1C412F5A003981CE;
+			productRefGroup = 0F640DE91C412F5A003981CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F640DE71C412F5A003981CE /* 02-多物理仿真 */,
+				0F640E001C412F5A003981CE /* 02-多物理仿真Tests */,
+				0F640E0B1C412F5A003981CE /* 02-多物理仿真UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F640DE61C412F5A003981CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F640DFB1C412F5A003981CE /* LaunchScreen.storyboard in Resources */,
+				0F640DF81C412F5A003981CE /* Assets.xcassets in Resources */,
+				0F640DF61C412F5A003981CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640DFF1C412F5A003981CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640E0A1C412F5A003981CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F640DE41C412F5A003981CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F640DF31C412F5A003981CE /* ViewController.m in Sources */,
+				0FDED2531C41FBF000F30810 /* WPFDemoController.m in Sources */,
+				0F640DF01C412F5A003981CE /* AppDelegate.m in Sources */,
+				0F190A801C42068C004C387B /* WPFSpringView.m in Sources */,
+				0F640DED1C412F5A003981CE /* main.m in Sources */,
+				0F190A771C420657004C387B /* WPFSnapView.m in Sources */,
+				0F640E231C413479003981CE /* WPFBaseView.m in Sources */,
+				0F190A7A1C420667004C387B /* WPFPushView.m in Sources */,
+				0F190A7D1C42067C004C387B /* WPFAttachmentView.m in Sources */,
+				0F190A831C42069E004C387B /* WPFCollisionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640DFD1C412F5A003981CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F640E061C412F5A003981CE /* _2______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F640E081C412F5A003981CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F640E111C412F5A003981CE /* _2______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F640E031C412F5A003981CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F640DE71C412F5A003981CE /* 02-多物理仿真 */;
+			targetProxy = 0F640E021C412F5A003981CE /* PBXContainerItemProxy */;
+		};
+		0F640E0E1C412F5A003981CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F640DE71C412F5A003981CE /* 02-多物理仿真 */;
+			targetProxy = 0F640E0D1C412F5A003981CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F640DF41C412F5A003981CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F640DF51C412F5A003981CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F640DF91C412F5A003981CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F640DFA1C412F5A003981CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F640E131C412F5B003981CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F640E141C412F5B003981CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F640E161C412F5B003981CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-多物理仿真/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F640E171C412F5B003981CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-多物理仿真/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F640E191C412F5B003981CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-多物理仿真Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-多物理仿真.app/02-多物理仿真";
+			};
+			name = Debug;
+		};
+		0F640E1A1C412F5B003981CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "02-多物理仿真Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-多物理仿真.app/02-多物理仿真";
+			};
+			name = Release;
+		};
+		0F640E1C1C412F5B003981CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-多物理仿真UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-多物理仿真";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0F640E1D1C412F5B003981CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "02-多物理仿真UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-2------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "02-多物理仿真";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F640DE31C412F5A003981CE /* Build configuration list for PBXProject "02-多物理仿真" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F640E131C412F5B003981CE /* Debug */,
+				0F640E141C412F5B003981CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F640E151C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F640E161C412F5B003981CE /* Debug */,
+				0F640E171C412F5B003981CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F640E181C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F640E191C412F5B003981CE /* Debug */,
+				0F640E1A1C412F5B003981CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F640E1B1C412F5B003981CE /* Build configuration list for PBXNativeTarget "02-多物理仿真UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F640E1C1C412F5B003981CE /* Debug */,
+				0F640E1D1C412F5B003981CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F640DE01C412F5A003981CE /* Project object */;
+}
